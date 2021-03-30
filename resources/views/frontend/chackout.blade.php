@@ -10,19 +10,32 @@
     <div class="row">
     <div class="col s6">
   <h5>Paket Hosting</h5>
-  <select class="browser-default" id="paket" onchange="tampilkan()" required>
-    <option value="" disabled selected>Choose your option</option>
-    @foreach($paket as $value)
-    @if($value->id == session()->get('session_packet'))
-    <option value="{{ $value->id }}" selected>{{ $value->name }}</option>
-    @elseif($value->id == $packet_id)
-    <option value="{{ $value->id }}" selected>{{ $value->name }}</option>
-    @else
-    <option value="{{ $value->id }}">{{ $value->price }}</option>
-    @endif
-    @endforeach
-  </select>
-
+  <form action="#">
+    <p>
+      <label>
+        <input name="group1" type="radio" checked />
+        <span><img src="{{ asset('images/bca.png') }}" width="80"></span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="group1" type="radio" />
+        <span><img src="{{ asset('images/mandiri.png') }}" width="80"></span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input class="with-gap" name="group1" type="radio"  />
+        <span><img src="{{ asset('images/indomaret.svg') }}" width="80"></span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="group1" type="radio" disabled="disabled" />
+        <span><img src="{{ asset('images/alfamart.png') }}" width="80"></span>
+      </label>
+    </p>
+  </form>
 </div>
 <div class="col s6">
        <h4>CART
@@ -52,7 +65,6 @@
         Rp. {{ number_format($subtotal) }}
         </div>
         <div class="col s7">
-        <a href="{{ url('/chackout') }}"><i class="waves-effect waves-teal btn-flat blue white-text">Lanjutkan</i></a>
         </div>
       @endif
     </div>
@@ -65,13 +77,33 @@
     <div class="container">
     <div class="row">
     <div class="col s6">
-  <h5>Pilih Domain</h5>
-    <input type="text">
-    <input type="hidden" name="packet_id" id="packet_id" required>
-    <input type="hidden" name="user_id" value="{{ auth()->user()->id ?? null}}" required>
-    <button class="waves-effect waves-teal btn-flat blue white-text" type="submit" name="action">Add Cart
-    <i class="material-icons right">send</i>
-    </button>
+  <h5>Informasi Anda</h5>
+  @if(auth()->user())
+  <div class="row">
+      <div class="col s8"> 
+        <div class="col s4">
+            Nama 
+        </div>
+        <div class="col s4">
+        {{ auth()->user()->name ?? null}}
+        </div>
+        </div>
+  </div>
+  <div class="row">
+      <div class="col s8"> 
+        <div class="col s4">
+            Email
+        </div>
+        <div class="col s4">
+        {{ auth()->user()->email ?? null}}
+        </div>
+        </div>
+  </div>
+  <a href="{{ url('/buy_order') }}" class="btn waves-effect waves-light" type="submit" name="action">Chackout
+  @else
+<a href="{{ route('login') }}" class="btn waves-effect waves-light" type="submit" name="action">Login
+@endif
+</a>
 </div>
 </div>
 

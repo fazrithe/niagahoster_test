@@ -69,7 +69,7 @@
             <li>Instant Backup</li>
             <li>Unlimited SSL Gratis Selamanya</li>
             </ul>
-            <a href="{{ url('/transaction/1') }}" class="waves-effect waves-red btn-small">Pilih Sekarang</a>
+            <a href="{{ url('/transaction/1') }}" class="waves-effect waves-teal btn-flat blue white-text">Pilih Sekarang</a>
           </div>
         </div>
 
@@ -89,15 +89,17 @@
             <li>Domain Gratis Selamanya</li>
             <li>Unlimited SSL Gratis Selamanya</li>
             </ul>
-            <a href="{{ url('/transaction/2') }}" class="waves-effect waves-red btn-small">Pilih Sekarang</a>    
+            <a href="{{ url('/transaction/2') }}" class="waves-effect waves-teal btn-flat blue white-text">Pilih Sekarang</a>    
         </div>
         </div>
 
         <div class="col s12 m6 l3">
           <div class="icon-block">
-          <h4 class="center light-blue-text">Personal</h4>
-            <h5 class="center">Rp. 38.900/bln</h5>
-            <p>10.017 Pengguna Terdaftar</p>
+           <div class="col s12 blue lighten-1">
+          <h4 class="center white-text">Personal</h4>
+            <h5 class="center white-text">Rp. 38.900/bln</h5>
+            <p class="center white-text">10.017 Pengguna Terdaftar</p>
+            </div>
             <ul>
             <li>2x RESOURCE POWER</li>
             <li>Unlimited Disk Space</li>
@@ -110,7 +112,7 @@
             <li>Provat Name Server</li>
             <li>Unlimited SSL Gratis Selamanya</li>
             </ul>
-            <a href="{{ url('/transaction/3') }}" class="waves-effect waves-red btn-small">Pilih Sekarang</a>   
+            <a href="{{ url('/transaction/3') }}" class="waves-effect waves-teal btn-flat blue white-text">Pilih Sekarang</a>   
         </div>
         </div>
 
@@ -133,7 +135,7 @@
             <li>*****</li>
             <li>Unlimited SSL Gratis Selamanya</li>
             </ul>
-            <a href="{{ url('/transaction/4') }}" class="waves-effect waves-red btn-small">Pilih Sekarang</a>   
+            <a href="{{ url('/transaction/4') }}" class="waves-effect waves-teal btn-flat blue white-text">Pilih Sekarang</a>   
         </div>
         </div>
       </div>
@@ -207,7 +209,7 @@
                 <li>Mendukung ekstensi PHP MYCrypet, phar, mbstring, json, dan fileinfo</li>
                 <li>Tersedia Composer dan SSH untuk menginstal package pilihan Anda</li>
                 <p>Nb. Composer dan SSH hanya tersedia pada paket Personal dan Bisnis</p>
-                <a class="waves-effect waves-red btn-small">Pilih Sekarang</a>   
+                <a class="waves-effect waves-teal btn-flat blue white-text">Pilih Sekarang</a>   
             </div>
             </div>
             <div class="col s12 m6">
@@ -311,7 +313,7 @@
         </div>
         </div>
         <div class="col s12 center">
-        <a class="waves-effect waves-red btn-small">Selengkapnya</a>   
+        <a class="waves-effect waves-teal btn-flat blue white-text">Selengkapnya</a>   
         </div>
       </div>
 </div>
@@ -325,32 +327,12 @@
                     CloudeLinux untuk stabilitas server Anda. Dilengkapi dengan SSD untuk kecepatan
                     MYSQL dan caching, Apache load balancer berbasis LiteSpeed Technologies,
                      CageFS security, RAID-10 protection dan auto backup untuk kemananan webite PHP Anda</p>
-                <a class="waves-effect waves-red btn-small">Pilih Hosting Anda</a>   
+                <a class="waves-effect waves-teal btn-flat blue white-text">Pilih Hosting Anda</a>   
             </div>
             </div>
             <div class="col s12 m6">
                 <img src ="{{ asset('frontend/assets/images/Image support.png') }}">
             </div>
-    </div>
-    <div class="row grey lighten-4 valign-wrapper">
-            <div class="col s12 m6">
-                <p>Bagikan jika Anda menyukai halaman ini.</p>
-            </div>
-            <div class="col s12 m6 right-align">
-            <div class="col s4"><img src ="{{ asset('images/google.png') }}" width="50"></div>
-            <div class="col s4"><img src ="{{ asset('images/google.png') }}" width="50"></div>
-            <div class="col s4"><img src ="{{ asset('images/google.png') }}" width="50"></div>
-            </div>
-            
-    </div>
-    <div class="row blue lighten-2 valign-wrapper">
-            <div class="col s12 m8 l9">
-                <h5>Perlu BANTUAN? Hubungi Kami : 0274-5305505</h5>
-            </div>
-            <div class="col s12 m4 l3">
-           <a class="waves-effect waves-red btn-small">Selengkapnya</a>   
-            </div>
-            
     </div>
     </div>
   </div>

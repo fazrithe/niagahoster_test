@@ -1,6 +1,8 @@
 <nav class="white lighten-1" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="{{ url('/') }}" class="brand-logo"><img src="{{ asset('images/logo.png') }}"></a>
       <ul class="right hide-on-med-and-down">
+      <li><a href="{{ url('/transaction/0') }}"><span class="blue-text text-darken-2"><i class="material-icons">add_shopping_cart
+</i></span></a></li>
         @if (Route::has('login'))
             @auth
             <li><a href="{{ url('/home') }}"><span class="blue-text text-darken-2">Home</span></a></li>

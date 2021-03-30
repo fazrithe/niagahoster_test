@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Packet;
 use App\Models\Cart;
+use App\Models\HeaderTransaction;
+use App\Models\DetailTransaction;
+use Auth;
 
 class TransactionController extends Controller
 {
@@ -76,4 +79,32 @@ class TransactionController extends Controller
             return view('frontend.transaction', compact('paket','cart','total','ppn'));
         }
     }
+
+    public function chackout()
+    {
+        $carts = json_decode(request()->cookie('dw-carts'), true);
+        $subtotal = collect($carts)->sum(function($q) {
+            return $q['packet_price'];
+        });
+        $ppn = $subtotal * 10 / 100;
+
+        return view('frontend.chackout', compact('carts','subtotal','ppn'));
+
+    }
+
+    public function buy_order()
+    {
+        $carts = json_decode(request()->cookie('dw-carts'), true);
+
+        $header_transaction_id = HeaderTransaction::add_header_transaction();
+        foreach ($carts as $key => $value){
+            $packet_id = $value['packet_id'];
+            $user_id = Auth::user()->id;
+            DetailTransaction::add_detail_transaction($packet_id,$header_transaction_id,$user_id);
+            unset($carts[$packet_id]);
+        }
+        $cookie = cookie('dw-carts', json_encode($carts), 2880);
+        return redirect('/billing')->cookie($cookie);
+    }
+
 }

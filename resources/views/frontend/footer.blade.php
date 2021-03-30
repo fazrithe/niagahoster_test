@@ -1,3 +1,26 @@
+
+ 
+      <div class="row">
+      <div class="col s8 right">
+      <div class="col s6 m4 center">
+                <p>Bagikan jika Anda menyukai halaman ini.</p>
+            </div>
+            <div class="col s6 right-align">
+            <div class="col s4"><img src ="{{ asset('images/google.png') }}" width="50"></div>
+            <div class="col s4"><img src ="{{ asset('images/google.png') }}" width="50"></div>
+            <div class="col s4"><img src ="{{ asset('images/google.png') }}" width="50"></div>
+            </div>
+    </div>
+    </div>
+<footer class="page-footer blue darken-1">
+    <div class="footer-copyright">
+      <div class="row">
+      <div class="col s20">
+                <h5>Perlu BANTUAN? Hubungi Kami : 0274-5305505</h5><a class="waves-effect waves-teal btn-flat blue white-text"><i class="material-icons left">chat_bubble</i>LiveChat</a>   
+            </div>
+      </div>
+    </div>
+  </footer>
 <footer class="page-footer grey darken-3">
     <div class="container">
       <div class="row">

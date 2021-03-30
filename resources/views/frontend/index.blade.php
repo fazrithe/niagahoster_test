@@ -18,7 +18,34 @@
 <!-- Fonts -->
 <link rel="dns-prefetch" href="//fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
+  <style>
+      .tombol{
+        /*ubah warna background*/
+        background-color: Transparent;
+        /*ubah warna tulisan*/
+        color: #ffffff;
+        /*atur border*/
+        border: 2px solid #ffffff;
+        /*atur sudut border*/
+        border-radius: 20px;
+        /*membuat efek bayangan*/
+        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+        /*teks rata tengah*/
+        text-align: center;
+        /*ubah jarak margin/luar*/
+        margin: 5px 2px;
+        /*ubah jarak padding/dalam*/
+        padding: 10px 15px;
+        /*ubah tampilan kursor ketika berada diatas elemen*/
+        cursor: pointer;
+      }
+      .tombol:hover{
+        /*ubah warna background ketika kursor berada diatas elemen*/
+        background-color: #ffffff;
+        /*ubah warna tulisan*/
+        color: black;
+      }
+  </style>
 </head>
 <body>
   @include('frontend.header')
