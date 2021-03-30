@@ -6,9 +6,84 @@
  * Made By MaterializeCSS.com
  */
 
+body
+{
+  font-family: 'Montserrat', arial;
+}
+
 .icon-block {
   padding: 0 15px;
 }
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+/*tambahan */
+
+.fz-tophead
+{
+  display: block;
+  position: relative;
+  height: 30px;
+  background: #ffff;
+  text-align: right;
+  margin-right: 220px;
+}
+
+.fz-bestseller
+{
+  display: block;
+  position: absolute;
+  left: -5px;
+  top: -5px;
+}
+
+.fz-chat
+{
+  display: block;
+  position: relative;
+  width: 100%;
+  background:#059fff;
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.fz-sosmed
+{
+  display: block;
+  position: relative;
+  width: 100%;
+  background: #d1dbe0;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.fz-chat .fz-chattext
+{
+  display: inline-block;
+  position: relative;
+  font-size: 30px;
+  color: white;
+  vertical-align: middle;
+  margin: 0 30px;
+}
+
+.fz-sosmed .fz-sosmedtext
+{
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+  color: black;
+  vertical-align: middle;
+  margin: 0 30px;
+}
+
+.fz-icon-check
+{
+  color: green;
+  padding-right: 10px;
+
+}
+

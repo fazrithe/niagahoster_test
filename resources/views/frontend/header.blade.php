@@ -1,5 +1,10 @@
+<div class="fz-tophead">
+        <span class="black-text text-darken-2"><li class="material-icons">local_phone</li> 0282-xxxxxx</span>  
+        <span class="black-text text-darken-2"><li class="material-icons">chat</li> Live Chat</span>
+</div>
 <nav class="white lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="{{ url('/') }}" class="brand-logo"><img src="{{ asset('images/logo.png') }}"></a>
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="{{ url('/') }}" class="brand-logo"><img src="{{ asset('images/logo.png') }}"></a>
       <ul class="right hide-on-med-and-down">
       <li><a href="{{ url('/transaction/0') }}"><span class="blue-text text-darken-2"><i class="material-icons">add_shopping_cart
 </i></span></a></li>

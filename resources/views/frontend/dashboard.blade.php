@@ -8,12 +8,14 @@
         <div class="row">
             <div class="col s12 m6">
             <div class="section">
-                <h3>PHP Hosting</h3>
+                <h3><b>PHP Hosting</b></h3>
                 <h4>Cepat, handal, penuh dengan modul PHP yang Anda butuhkan</h4>
-                <li>Solusi PHP untuk performa query yang lebih cepat</li>
-                <li>Konsumsi memori uang lebih rendah</li>
-                <li>Support PHP 5.3, PHP 5.4, PHP 5.5, PHP 5.6, PHP 7, PHP 8</li>
-                <li>Fitur enkripsi IonCube dan Zend Guard Loaders</li>
+                <ul>
+                <li><i class="fas fa-check-circle fz-icon-check"></i>Solusi PHP untuk performa query yang lebih cepat</li>
+                <li><i class="fas fa-check-circle fz-icon-check"></i>Konsumsi memori uang lebih rendah</li>
+                <li><i class="fas fa-check-circle fz-icon-check"></i>Support PHP 5.3, PHP 5.4, PHP 5.5, PHP 5.6, PHP 7</li>
+                <li><i class="fas fa-check-circle fz-icon-check"></i>Fitur enkripsi IonCube dan Zend Guard Loaders</li>
+              </ul>
             </div>
             </div>
             <div class="col s12 m6">
@@ -52,22 +54,22 @@
   <div class="container">
       <div class="row">
         <div class="col s12 center">
-          <h3>Paket Hosting Singapura yang Tepat</h3>
+          <h3><b>Paket Hosting Singapura yang Tepat</b></h3>
           <p> Diskon $40% + Domain Dan SSL Gratis untuk Anda</p>
         </div>
         <div class="col s12 m6 l3">
           <div class="icon-block">
-            <h4 class="center light-blue-text">Bayi</h4>
+            <h4 class="center black-text"><b>Bayi</b></h4>
             <h5 class="center">Rp. 14.900/bln</h5>
-            <p>938 Pengguna Terdaftar</p>
+            <p><b>938</b> Pengguna Terdaftar</p>
             <ul>
-            <li>0.5 RESOURCE POWER</li>
-            <li>500 MB Disk Space</li>
-            <li>Unlimited Bandwith</li>
-            <li>Unlimited Database</li>
-            <li>1 Domain</li>
-            <li>Instant Backup</li>
-            <li>Unlimited SSL Gratis Selamanya</li>
+            <li><b>0.5 RESOURCE POWER</b></li>
+            <li><b>500</b> MB Disk Space</li>
+            <li><b>Unlimited</b> Bandwith</li>
+            <li><b>Unlimited</b> Database</li>
+            <li><b>1</b> Domain</li>
+            <li><b>Instant</b> Backup</li>
+            <li><b>Unlimited</b> SSL Gratis Selamanya</li>
             </ul>
             <a href="{{ url('/transaction/1') }}" class="waves-effect waves-teal btn-flat blue white-text">Pilih Sekarang</a>
           </div>
@@ -75,42 +77,43 @@
 
         <div class="col s12 m6 l3">
           <div class="icon-block">
-          <h4 class="center light-blue-text">Pelajar</h4>
+          <h4 class="center black-text"><b>Pelajar</b></h4>
             <h5 class="center">Rp. 23.450/bln</h5>
-            <p>4.168 Pengguna Terdaftar</p>
+            <p><b>4.168</b> Pengguna Terdaftar</p>
             <ul>
-            <li>1x RESOURCE POWER</li>
-            <li>Unlimited Disk Space</li>
-            <li>Unlimited Bandwith</li>
-            <li>Unlimited POP3 Email</li>
-            <li>Unlimited Database</li>
-            <li>10 addon Domains</li>
-            <li>Instant Backup</li>
-            <li>Domain Gratis Selamanya</li>
-            <li>Unlimited SSL Gratis Selamanya</li>
+            <li><b>1x</b> RESOURCE POWER</li>
+            <li><b>Unlimited</b> Disk Space</li>
+            <li><b>Unlimited</b> Bandwith</li>
+            <li><b>Unlimited POP3</b> Email</li>
+            <li><b>Unlimited</b> Database</li>
+            <li><b>10</b> addon Domains</li>
+            <li><b>Instant</b> Backup</li>
+            <li><b>Domain Gratis</b> Selamanya</li>
+            <li><b>Unlimited</b> SSL Gratis Selamanya</li>
             </ul>
             <a href="{{ url('/transaction/2') }}" class="waves-effect waves-teal btn-flat blue white-text">Pilih Sekarang</a>    
         </div>
         </div>
 
-        <div class="col s12 m6 l3">
+        <div class="col s12 m6 l3" style="position:relative">
+          <img src="{{ url('images/best.png') }}" class="fz-bestseller">
           <div class="icon-block">
            <div class="col s12 blue lighten-1">
-          <h4 class="center white-text">Personal</h4>
+          <h4 class="center white-text"><b>Personal</b></h4>
             <h5 class="center white-text">Rp. 38.900/bln</h5>
             <p class="center white-text">10.017 Pengguna Terdaftar</p>
             </div>
             <ul>
-            <li>2x RESOURCE POWER</li>
-            <li>Unlimited Disk Space</li>
-            <li>Unlimited Bandwith</li>
-            <li>Unlimited POP3 Email</li>
-            <li>Unlimited Database</li>
-            <li>Unlimited Addpn Domains</li>
-            <li>Instant Backup</li>
-            <li>Domain Gratis Selamanya</li>
-            <li>Provat Name Server</li>
-            <li>Unlimited SSL Gratis Selamanya</li>
+            <li><b>2x</b> RESOURCE POWER</li>
+            <li><b>Unlimited</b> Disk Space</li>
+            <li><b>Unlimited</b> Bandwith</li>
+            <li><b>Unlimited</b> POP3 Email</li>
+            <li><b>Unlimited</b> Database</li>
+            <li><b>Unlimited</b> Addpn Domains</li>
+            <li><b>Instant</b> Backup</li>
+            <li><b>Domain Gratis</b> Selamanya</li>
+            <li><b>Provat</b> Name Server</li>
+            <li><b>Unlimited</b> SSL Gratis Selamanya</li>
             </ul>
             <a href="{{ url('/transaction/3') }}" class="waves-effect waves-teal btn-flat blue white-text">Pilih Sekarang</a>   
         </div>
@@ -118,22 +121,22 @@
 
         <div class="col s12 m6 l3">
           <div class="icon-block">
-          <h4 class="center light-blue-text">Bisnis</h4>
+          <h4 class="center black-text"><b>Bisnis</b></h4>
             <h5 class="center">Rp. 65.900/bln</h5>
             <p>3.552 Pengguna Terdaftar</p>
             <ul>
-            <li>3x RESOURCE POWER</li>
-            <li>Unlimited Disk Space</li>
-            <li>Unlimited Bandwith</li>
-            <li>Unlimited POP3 Email</li>
-            <li>Unlimited Database</li>
-            <li>Unlimited Addpn Domains</li>
-            <li>Instant Backup</li>
-            <li>Domain Gratis Selamanya</li>
-            <li>Provat Name Server</li>
-            <li>Prioritas Layanan Support</li>
+            <li><b>3x</b> RESOURCE POWER</li>
+            <li><b>Unlimited</b> Disk Space</li>
+            <li><b>Unlimited</b> Bandwith</li>
+            <li><b>Unlimited</b> POP3 Email</li>
+            <li><b>Unlimited</b> Database</li>
+            <li><b>Unlimited</b> Addpn Domains</li>
+            <li><b>Unlimited</b> Backup</li>
+            <li><b>Domain Gratis</b> Selamanya</li>
+            <li><b>Privat</b> Name Server</li>
+            <li><b>Prioritas</b> Layanan Support</li>
             <li>*****</li>
-            <li>Unlimited SSL Gratis Selamanya</li>
+            <li><b>Unlimited</b> SSL Gratis Selamanya</li>
             </ul>
             <a href="{{ url('/transaction/4') }}" class="waves-effect waves-teal btn-flat blue white-text">Pilih Sekarang</a>   
         </div>
@@ -148,16 +151,20 @@
       <!--   Icon Section   -->
       <div class="row" >
         <div class="col s6">
-            <li>max executeion time 300s</li>
-            <li>max executeion time 300s</li>
-            <li>php memory limit 1024 MB</li>
+          <ul>
+            <li><i class="fas fa-check-circle fz-icon-check"></i>max executeion time 300s</li>
+            <li><i class="fas fa-check-circle fz-icon-check"></i>max executeion time 300s</li>
+            <li><i class="fas fa-check-circle fz-icon-check"></i>php memory limit 1024 MB</li>
+          </ul>
         </div>
 
         <div class="col s6">
-            <li>post max 128 MB</li>
-            <li>upload max filesize 128 MB</li>
-            <li>max input vars 2500</li>
-        </div>
+          <ul>
+            <li><i class="fas fa-check-circle fz-icon-check"></i>post max 128 MB</li>
+            <li><i class="fas fa-check-circle fz-icon-check"></i>upload max filesize 128 MB</li>
+            <li><i class="fas fa-check-circle fz-icon-check"></i>max input vars 2500</li>
+          </ul>
+          </div>
         </div>
     </div>
   </div>
@@ -169,29 +176,29 @@
       <div class="row center" >
         <div class="col s4 center">
           <img width="50" src="{{ asset('frontend/assets/svg/icon PHP Hosting_PHP Semua Versi.svg') }}">
-          <h5>PHP Semua Versi</h5>
+          <h5><b>PHP Semua Versi</b></h5>
           <p>Pilih mulai dari versi PHP 5.3 s/d PHP 7 Ubah sesuka Anda!</p>
           <img width="50" src="{{ asset('frontend/assets/svg/icon PHP Hosting_PHP Semua Versi.svg') }}">
-          <h5>PHP Semua Versi</h5>
-          <p>Pilih mulai dari versi PHP 5.3 s/d PHP 7 Ubah sesuka Anda!</p>
+          <h5><b>Garansi Uptime 99.9%</b></h5>
+          <p>Data center yang mendukung kelangsungan website Anda 14/7</p>
         </div>
 
         <div class="col s4">
             <img width="50" src ="{{ asset('frontend/assets/svg/icon PHP Hosting_My SQL.svg') }}">
-            <h5>PHP Semua Versi</h5>
-          <p>Pilih mulai dari versi PHP 5.3 s/d PHP 7 Ubah sesuka Anda!</p>
+            <h5><b>MySQL Versi 5.6</b></h5>
+          <p>Nikmati MySQL versi terbaru, tercepat dan kaya akan fitur.</p>
           <img width="50" src="{{ asset('frontend/assets/svg/icon PHP Hosting_PHP Semua Versi.svg') }}">
-          <h5>PHP Semua Versi</h5>
-          <p>Pilih mulai dari versi PHP 5.3 s/d PHP 7 Ubah sesuka Anda!</p>
+          <h5><b>Database InnoDB Unlimited</b></h5>
+          <p>Jumlah dan ukuran database yang tumbuh sesuai kebutuhan Anda</p>
         </div>
 
         <div class="col s4">
             <img width="50" src ="{{ asset('frontend/assets/svg/icon PHP Hosting_CPanel.svg') }}">
-            <h5>PHP Semua Versi</h5>
-          <p>Pilih mulai dari versi PHP 5.3 s/d PHP 7 Ubah sesuka Anda!</p>
+            <h5><b>Panel Hosting CPanel</b></h5>
+          <p>Kelola website dengan panel canggih yang familiar di hati anda</p>
           <img width="50" src="{{ asset('frontend/assets/svg/icon PHP Hosting_PHP Semua Versi.svg') }}">
-          <h5>PHP Semua Versi</h5>
-          <p>Pilih mulai dari versi PHP 5.3 s/d PHP 7 Ubah sesuka Anda!</p>
+          <h5><b>Wildcard Remote MySQL</b></h5>
+          <p>Mendukung s/d 25 max_user_connections dan 100 max_connections.</p>
         </div>
      </div>
     <br>
@@ -336,6 +343,18 @@
     </div>
     </div>
   </div>
+</div>
+<div class="fz-sosmed">
+    <div class="fz-sosmedtext">
+    Bagikan jika Anda menyukai halaman ini.</div>
+    <img src="{{ asset('images/google.png') }}" width="30">
+    <img src="{{ asset('images/google.png') }}" width="30">
+    <img src="{{ asset('images/google.png') }}" width="30">
+</div>
+<div class="fz-chat">
+    <div class="fz-chattext">
+    Perlu BANTUAN? Hubungi Kami : 0274-5305505</div>
+    <a class="waves-effect waves-teal btn-flat blue white-text"><i class="material-icons left">chat_bubble</i>LiveChat</a>   
 </div>
   
 @endsection

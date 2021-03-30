@@ -10,6 +10,9 @@
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
   <link href="{{ asset('frontend/css/materialize.css') }}" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="{{ asset ('frontend/css/style.css') }}" type="text/css" rel="stylesheet" media="screen,projection"/>
   <!-- Scripts -->
@@ -18,34 +21,7 @@
 <!-- Fonts -->
 <link rel="dns-prefetch" href="//fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-  <style>
-      .tombol{
-        /*ubah warna background*/
-        background-color: Transparent;
-        /*ubah warna tulisan*/
-        color: #ffffff;
-        /*atur border*/
-        border: 2px solid #ffffff;
-        /*atur sudut border*/
-        border-radius: 20px;
-        /*membuat efek bayangan*/
-        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
-        /*teks rata tengah*/
-        text-align: center;
-        /*ubah jarak margin/luar*/
-        margin: 5px 2px;
-        /*ubah jarak padding/dalam*/
-        padding: 10px 15px;
-        /*ubah tampilan kursor ketika berada diatas elemen*/
-        cursor: pointer;
-      }
-      .tombol:hover{
-        /*ubah warna background ketika kursor berada diatas elemen*/
-        background-color: #ffffff;
-        /*ubah warna tulisan*/
-        color: black;
-      }
-  </style>
+
 </head>
 <body>
   @include('frontend.header')
