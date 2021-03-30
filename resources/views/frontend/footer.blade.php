@@ -106,7 +106,7 @@
       </div>
       <div class="row">
         <div class="col">
-          <h5 class="white-text">Tentang Kami</h5>
+          <h5 class="white-text">Pembayaran</h5>
           <p>Aktivitas instan dengan e-Payment Hosting dan domain langsung aktif!</p>
         </div>
       </div>

@@ -6,7 +6,7 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">{{ __('Dashboard') }}</div>
-                @if($header_transaction == null)
+                @if($header_transaction)
                 <div class="card-body">
                 @foreach($header_transaction as $value )
                 <h5>INV. {{ $value->header_transaction_id }}</h5>

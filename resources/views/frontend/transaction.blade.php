@@ -10,15 +10,13 @@
     <div class="row">
     <div class="col s6">
   <h5>Paket Hosting</h5>
-  <select class="browser-default" id="paket" onchange="tampilkan()" required>
+  <select class="browser-default" id="paket" name="packet_id" required>
     <option value="" disabled selected>Choose your option</option>
     @foreach($paket as $value)
-    @if($value->id == session()->get('session_packet'))
-    <option value="{{ $value->id }}" selected>{{ $value->name }}</option>
-    @elseif($value->id == $packet_id)
+    @if($value->id == $packet_id)
     <option value="{{ $value->id }}" selected>{{ $value->name }}</option>
     @else
-    <option value="{{ $value->id }}">{{ $value->price }}</option>
+    <option value="{{ $value->id }}">{{ $value->name }}</option>
     @endif
     @endforeach
   </select>
@@ -67,7 +65,6 @@
     <div class="col s6">
   <h5>Pilih Domain</h5>
     <input type="text">
-    <input type="hidden" name="packet_id" id="packet_id" required>
     <input type="hidden" name="user_id" value="{{ auth()->user()->id ?? null}}" required>
     <button class="waves-effect waves-teal btn-flat blue white-text" type="submit" name="action">Add Cart
     <i class="material-icons right">send</i>
@@ -96,7 +93,6 @@ function tampilkan(){
                       success: function(data){
                         var ppn = data.price * 10 / 100;
                          console.log(data.price); 
-                         document.getElementById("packet_id").value=id;
                         }
             });
 }
