@@ -13,7 +13,7 @@
   <form action="#">
     <p>
       <label>
-        <input name="group1" type="radio" checked />
+        <input name="group1" type="radio" />
         <span><img src="{{ asset('images/bca.png') }}" width="80"></span>
       </label>
     </p>

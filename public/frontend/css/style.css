@@ -24,10 +24,33 @@ body
 {
   display: block;
   position: relative;
-  height: 30px;
+  height: 50px;
   background: #ffff;
+}
+
+.fz-topheadcenter
+{
+  width: 100%;
+  display: block;
+  position: relative;
   text-align: right;
-  margin-right: 220px;
+  height: 50px;
+}
+
+.fz-topheadcenter .fz-topheadcontent
+{
+  display: inline-block;
+  position: relative;
+  margin-left: 30px;
+  text-decoration: none;
+  color: #000000;
+  line-height: 50px;
+  padding: 0 15px;
+}
+
+.fz-topheadcenter .fztopheadcontent:last-child
+{
+  margin-left: 0px;
 }
 
 .fz-bestseller
@@ -86,4 +109,14 @@ body
   padding-right: 10px;
 
 }
+
+.fz-price
+{
+  display: block;
+  position: relative;
+  text-decoration: line-through;
+  color: black;
+  text-align: center;
+}
+
 

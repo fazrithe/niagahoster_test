@@ -60,7 +60,8 @@
         <div class="col s12 m6 l3">
           <div class="icon-block">
             <h4 class="center black-text"><b>Bayi</b></h4>
-            <h5 class="center">Rp. 14.900/bln</h5>
+            <a class="fz-price">Rp. {{ number_format($packet_all['packet_old_1']->price_old) }}</a>
+            <h5 class="center"><sup>Rp.</sup><b>{{ $packet_str['price_1_1'] }}</b><sup><b>.{{ $packet_str['price_1_2'] }}</b>/bln</sup></h5>
             <p><b>938</b> Pengguna Terdaftar</p>
             <ul>
             <li><b>0.5 RESOURCE POWER</b></li>
@@ -78,7 +79,8 @@
         <div class="col s12 m6 l3">
           <div class="icon-block">
           <h4 class="center black-text"><b>Pelajar</b></h4>
-            <h5 class="center">Rp. 23.450/bln</h5>
+            <a class="fz-price">Rp. {{ number_format($packet_all['packet_old_2']->price_old) }}</a>
+            <h5 class="center"><sup>Rp.</sup><b>{{ $packet_str['price_2_1'] }}</b><sup><b>.{{ $packet_str['price_2_2'] }}</b>/bln</sup></h5>
             <p><b>4.168</b> Pengguna Terdaftar</p>
             <ul>
             <li><b>1x</b> RESOURCE POWER</li>
@@ -100,7 +102,8 @@
           <div class="icon-block">
            <div class="col s12 blue lighten-1">
           <h4 class="center white-text"><b>Personal</b></h4>
-            <h5 class="center white-text">Rp. 38.900/bln</h5>
+            <a class="fz-price white-text">Rp. {{ number_format($packet_all['packet_old_3']->price_old) }}</a>
+            <h5 class="center white-text"><sup>Rp.</sup><b>{{ $packet_str['price_3_1'] }}</b><sup><b>.{{ $packet_str['price_3_2'] }}</b>/bln</sup></h5>
             <p class="center white-text">10.017 Pengguna Terdaftar</p>
             </div>
             <ul>
@@ -122,7 +125,8 @@
         <div class="col s12 m6 l3">
           <div class="icon-block">
           <h4 class="center black-text"><b>Bisnis</b></h4>
-            <h5 class="center">Rp. 65.900/bln</h5>
+            <a class="fz-price">Rp. {{ number_format($packet_all['packet_old_4']->price_old) }}</a>
+            <h5 class="center"><sup>Rp.</sup><b>{{ $packet_str['price_4_1'] }}</b><sup><b>.{{ $packet_str['price_4_2'] }}</b>/bln</sup></h5>
             <p>3.552 Pengguna Terdaftar</p>
             <ul>
             <li><b>3x</b> RESOURCE POWER</li>
