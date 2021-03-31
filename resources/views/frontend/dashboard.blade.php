@@ -72,7 +72,7 @@
             <li><b>Instant</b> Backup</li>
             <li><b>Unlimited</b> SSL Gratis Selamanya</li>
             </ul>
-            <a href="{{ url('/transaction/1') }}" class="waves-effect waves-teal btn-flat blue white-text">Pilih Sekarang</a>
+            <a href="{{ url('/transaction/1') }}" class="waves-effect waves-teal btn blue white-text">Pilih Sekarang</a>
           </div>
         </div>
 
@@ -93,14 +93,14 @@
             <li><b>Domain Gratis</b> Selamanya</li>
             <li><b>Unlimited</b> SSL Gratis Selamanya</li>
             </ul>
-            <a href="{{ url('/transaction/2') }}" class="waves-effect waves-teal btn-flat blue white-text">Pilih Sekarang</a>    
+            <a href="{{ url('/transaction/2') }}" class="waves-effect waves-teal btn blue white-text">Pilih Sekarang</a>    
         </div>
         </div>
 
         <div class="col s12 m6 l3" style="position:relative">
           <img src="{{ url('images/best.png') }}" class="fz-bestseller">
           <div class="icon-block">
-           <div class="col s12 blue lighten-1">
+           <div class="col s12 blue darken-2">
           <h4 class="center white-text"><b>Personal</b></h4>
             <a class="fz-price white-text">Rp. {{ number_format($packet_all['packet_old_3']->price_old) }}</a>
             <h5 class="center white-text"><sup>Rp.</sup><b>{{ $packet_str['price_3_1'] }}</b><sup><b>.{{ $packet_str['price_3_2'] }}</b>/bln</sup></h5>
@@ -118,7 +118,7 @@
             <li><b>Provat</b> Name Server</li>
             <li><b>Unlimited</b> SSL Gratis Selamanya</li>
             </ul>
-            <a href="{{ url('/transaction/3') }}" class="waves-effect waves-teal btn-flat blue white-text">Pilih Sekarang</a>   
+            <a href="{{ url('/transaction/3') }}" class="waves-effect waves-teal btn blue white-text">Pilih Sekarang</a>   
         </div>
         </div>
 
@@ -142,7 +142,7 @@
             <li>*****</li>
             <li><b>Unlimited</b> SSL Gratis Selamanya</li>
             </ul>
-            <a href="{{ url('/transaction/4') }}" class="waves-effect waves-teal btn-flat blue white-text">Pilih Sekarang</a>   
+            <a href="{{ url('/transaction/4') }}" class="waves-effect waves-teal btn blue white-text">Pilih Sekarang</a>   
         </div>
         </div>
       </div>
